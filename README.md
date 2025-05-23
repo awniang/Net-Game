@@ -46,7 +46,6 @@ Chaque pièce (segment, coin, extrémité, ou T) contient un ou plusieurs **demi
 
 Unifier tous les éléments connectés en un seul **graphe connexe**. Le jeu est considéré comme résolu quand toutes les connexions sont valides et forment un réseau complet.
 
-## 🔗 Références
+## Références
 
-- [Règles originales du jeu Net](https://www.chiark.greenend.org.uk/sgtatham/puzzles/js/net.html)
 - [Wikipedia — Net (puzzle)](https://en.wikipedia.org/wiki/Net)
