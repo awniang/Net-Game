@@ -1,25 +1,52 @@
-Nom de projet : Net
+# Net 
 
-Description de projet :
+**Net** est un jeu de logique développé en **C** dans le cadre d’un **projet universitaire réalisé en équipe de 3 étudiants**. L’objectif est de faire pivoter des pièces sur une grille 5x5 pour former un **réseau connecté**. Contrairement à la règle d’origine, cette version **accepte les boucles** et **autorise des cases vides**.
 
-The game net is a single-player logic puzzle.
+## Contenu du projet
 
-The game consists of a 5x5 grid with squares containing pieces, comparable to cables or pipes, which can be rotated by a quarter turn in the clockwise (or anti-clockwise) direction. These pieces have a certain shape (endpoint, segment, corner, or tee) and a certain orientation (N, E, S, W). Each shape consists of one or more arms, connected to the center of the square, called half-edges.
+Le projet repose sur une seule bibliothèque nommée `libgame.a`, qui propose une architecture modulaire organisée comme suit :
 
-Numéro de groupe : B11
+- `game.h` — Fonctions de base du jeu  
+- `game_aux.h` — Fonctions auxiliaires  
+- `game_ext.h` — Fonctions avancées (extensions)  
 
-Auteurs : Fama Seye, Awa Niang, Qinyuan XIE
+Ces interfaces utilisent un **type opaque** (`game`) manipulé via des pointeurs (`game*` ou `cgame` pour les constantes).
 
-Année : 2024-2025
+## Principes techniques
 
-Description of GUI:
-The GUI of our application is designed to provide an intuitive experience. It is based on the library SDL2.
+- Types opaques & encapsulation  
+- Gestion stricte des erreurs avec `assert()`  
+- Utilisation de pointeurs `const` pour la sûreté  
+- Architecture modulaire
 
-Basic structure:
+## Fonctionnalités proposées
 
-Widgets at the top of the window: 5 buttons to the main function (game_random, game_undo, game_redo, game_solve, game_save)
+Le dépôt fournit plusieurs programmes s’appuyant sur la bibliothèque :
 
-Workspace: 80% of the main screen provided an area where the main content of the game is displayed (the complete game).
+- `game_text` — Version textuelle du jeu, jouable dans le terminal  
+- `game_test` — Programme de tests unitaires pour valider la bibliothèque  
+- `game_solve` — Solveur automatique qui génère une solution valide  
+- `game_sdl` — Interface graphique basée sur la bibliothèque SDL  
+- `web_version` — Une **version web intégrée** du jeu (interface HTML/JS fournie)  
 
-Shortcut keys:
-Users can either use the keyboard or use buttons at the top of window to do the operation. Click key 'h'(help) to see all the shortcut keys.
+## Règles du jeu
+
+Inspiré de la version originale de Simon Tatham :
+
+> Faites tourner les pièces pour former un seul réseau connecté, sans boucles.
+
+### Adaptations apportées
+
+- Les boucles sont **autorisées**
+- Des **cases vides** peuvent apparaître dans la grille
+
+Chaque pièce (segment, coin, extrémité, ou T) contient un ou plusieurs **demi-bords** connectables. L’alignement des demi-bords entre deux cases adjacentes permet de former des arêtes dans le graphe.
+
+### Objectif
+
+Unifier tous les éléments connectés en un seul **graphe connexe**. Le jeu est considéré comme résolu quand toutes les connexions sont valides et forment un réseau complet.
+
+## 🔗 Références
+
+- [Règles originales du jeu Net](https://www.chiark.greenend.org.uk/sgtatham/puzzles/js/net.html)
+- [Wikipedia — Net (puzzle)](https://en.wikipedia.org/wiki/Net)
