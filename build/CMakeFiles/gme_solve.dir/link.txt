@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -g -Wall -rdynamic CMakeFiles/gme_solve.dir/game_solve.c.o -o gme_solve

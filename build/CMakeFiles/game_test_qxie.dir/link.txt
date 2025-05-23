@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -g -Wall -g -rdynamic CMakeFiles/game_test_qxie.dir/game_test_qxie.c.o -o game_test_qxie  libgame.a

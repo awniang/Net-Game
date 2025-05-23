@@ -1,0 +1,1486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-cc"
+	BuildStamp="20250204-1537-Experimental"
+	Name="ford"
+	Generator="ctest-3.30.5"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="fassbinder"
+	OSRelease="6.1.0-30-amd64"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Debian 6.1.124-1 (2025-01-12)"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="183"
+	ProcessorCacheSize="36864"
+	NumberOfLogicalCPU="32"
+	NumberOfPhysicalCPU="24"
+	TotalVirtualMemory="39070"
+	TotalPhysicalMemory="63987"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="800"
+	>
+	<Testing>
+		<StartDateTime>Feb 04 16:57 CET</StartDateTime>
+		<StartTestTime>1738684669</StartTestTime>
+		<TestList>
+			<Test>./test_qxie_dummy</Test>
+			<Test>./test_awniang_dummy</Test>
+			<Test>./test_famseye_dummy</Test>
+			<Test>./test_famseye_play_move</Test>
+			<Test>./test_famseye_get_piece_orientation</Test>
+			<Test>./test_famseye_get_piece_shape</Test>
+			<Test>./test_famseye_game_reset_orientation</Test>
+			<Test>./test_famseye_game_shuffle_orientation</Test>
+			<Test>./test_famseye_game_won</Test>
+			<Test>./test_famseye_game_is_connected</Test>
+			<Test>./test_famseye_game_is_well_paired</Test>
+			<Test>./test_game_nb_rows</Test>
+			<Test>./test_game_new_empty_ext</Test>
+			<Test>./test_game_new_ext</Test>
+			<Test>./test_awniang_game_new_empty</Test>
+			<Test>./test_awniang_game_new</Test>
+			<Test>./test_awniang_game_equal</Test>
+			<Test>./test_awniang_game_delete</Test>
+			<Test>./test_awniang_game_set_piece_shape</Test>
+			<Test>./test_awniang_game_set_piece_orientation</Test>
+			<Test>./test_awniang_game_copy</Test>
+			<Test>./test_awniang_game_nb_cols</Test>
+			<Test>./test_awniang_game_is_wrapping</Test>
+			<Test>./test_awniang_game_load</Test>
+			<Test>./test_awniang_game_save</Test>
+			<Test>./test_qxie_game_default</Test>
+			<Test>./test_qxie_game_default_solution</Test>
+			<Test>./test_qxie_game_get_ajacent_square</Test>
+			<Test>./test_qxie_game_get_ajacent_square_ext</Test>
+			<Test>./test_qxie_game_has_half_edge</Test>
+			<Test>./test_qxie_game_has_half_edge_ext</Test>
+			<Test>./test_qxie_game_check_edge</Test>
+			<Test>./test_qxie_game_check_edge_ext</Test>
+			<Test>./test_qxie_game_is_well_paired</Test>
+			<Test>./test_qxie_game_is_well_paired_ext</Test>
+			<Test>./test_qxie_game_print</Test>
+			<Test>./test_qxie_game_undo</Test>
+			<Test>./test_qxie_game_redo</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>test_qxie_dummy</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_dummy</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.1.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "dummy"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.3144</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.1.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "dummy"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_awniang_dummy</Name>
+			<Path>.</Path>
+			<FullName>./test_awniang_dummy</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.2.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "dummy"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.305717</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.2.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "dummy"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_famseye_dummy</Name>
+			<Path>.</Path>
+			<FullName>./test_famseye_dummy</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.3.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "dummy"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.300969</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.3.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "dummy"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_famseye_play_move</Name>
+			<Path>.</Path>
+			<FullName>./test_famseye_play_move</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.4.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_play_move"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.30379</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.4.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_play_move"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Test "game_play_move" finished: SUCCESS
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_famseye_get_piece_orientation</Name>
+			<Path>.</Path>
+			<FullName>./test_famseye_get_piece_orientation</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.5.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "get_piece_orientation"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.30554</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.5.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "get_piece_orientation"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Test "get_piece_orientation" finished: SUCCESS
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_famseye_get_piece_shape</Name>
+			<Path>.</Path>
+			<FullName>./test_famseye_get_piece_shape</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.6.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "get_piece_shape"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.303216</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.6.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "get_piece_shape"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Test "get_piece_shape" finished: SUCCESS
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_famseye_game_reset_orientation</Name>
+			<Path>.</Path>
+			<FullName>./test_famseye_game_reset_orientation</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.7.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "reset_orientation"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.304927</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.7.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "reset_orientation"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Test "reset_orientation" finished: SUCCESS
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_famseye_game_shuffle_orientation</Name>
+			<Path>.</Path>
+			<FullName>./test_famseye_game_shuffle_orientation</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.8.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "shuffle_orientation"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.302173</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.8.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "shuffle_orientation"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Test "shuffle_orientation" finished: SUCCESS
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_famseye_game_won</Name>
+			<Path>.</Path>
+			<FullName>./test_famseye_game_won</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.9.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_won"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.311859</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.9.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_won"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Test "game_won" finished: SUCCESS
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_famseye_game_is_connected</Name>
+			<Path>.</Path>
+			<FullName>./test_famseye_game_is_connected</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.10.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_is_connected"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.312184</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.10.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_is_connected"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Test "game_is_connected" finished: SUCCESS
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_famseye_game_is_well_paired</Name>
+			<Path>.</Path>
+			<FullName>./test_famseye_game_is_well_paired</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.11.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_is_well_paired"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.304936</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.11.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_is_well_paired"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_game_nb_rows</Name>
+			<Path>.</Path>
+			<FullName>./test_game_nb_rows</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.12.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_nb_rows"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.309459</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.12.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_nb_rows"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Test "game_nb_rows" finished: SUCCESS
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_game_new_empty_ext</Name>
+			<Path>.</Path>
+			<FullName>./test_game_new_empty_ext</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.13.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_new_empty_ext"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.300692</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.13.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_new_empty_ext"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Test "game_new_empty_ext" finished: SUCCESS
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_game_new_ext</Name>
+			<Path>.</Path>
+			<FullName>./test_game_new_ext</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.14.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_new_ext"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.30659</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.14.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_new_ext"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Test "game_new_ext" finished: SUCCESS
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_awniang_game_new_empty</Name>
+			<Path>.</Path>
+			<FullName>./test_awniang_game_new_empty</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.15.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_new_empty"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.309169</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.15.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_new_empty"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_empty passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_awniang_game_new</Name>
+			<Path>.</Path>
+			<FullName>./test_awniang_game_new</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.16.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_new"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.310599</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.16.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_new"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_new passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_awniang_game_equal</Name>
+			<Path>.</Path>
+			<FullName>./test_awniang_game_equal</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.17.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_equal"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.341148</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.17.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_equal"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Test_game_equal passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_awniang_game_delete</Name>
+			<Path>.</Path>
+			<FullName>./test_awniang_game_delete</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.18.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_delete"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.302178</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.18.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_delete"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_delete passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_awniang_game_set_piece_shape</Name>
+			<Path>.</Path>
+			<FullName>./test_awniang_game_set_piece_shape</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.19.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_set_piece_shape"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.304129</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.19.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_set_piece_shape"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_set_piece_shape passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_awniang_game_set_piece_orientation</Name>
+			<Path>.</Path>
+			<FullName>./test_awniang_game_set_piece_orientation</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.20.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_set_piece_orientation"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.303348</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.20.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_set_piece_orientation"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_set_piece_orientation passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_awniang_game_copy</Name>
+			<Path>.</Path>
+			<FullName>./test_awniang_game_copy</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.21.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_copy"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.312347</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.21.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_copy"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_copy passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_awniang_game_nb_cols</Name>
+			<Path>.</Path>
+			<FullName>./test_awniang_game_nb_cols</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.22.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_nb_cols"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.309046</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.22.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_nb_cols"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_nb_cols passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_awniang_game_is_wrapping</Name>
+			<Path>.</Path>
+			<FullName>./test_awniang_game_is_wrapping</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.23.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_is_wrapping"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.306239</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.23.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_is_wrapping"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_is_wrapping passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_awniang_game_load</Name>
+			<Path>.</Path>
+			<FullName>./test_awniang_game_load</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.24.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_load"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.343259</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.24.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_load"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>     0 1 
+     ----
+  0 |└ ^ |
+  1 |┬ ┤ |
+     ----
+     0 1 
+     ----
+  0 |└ ^ |
+  1 |┬ ┤ |
+     ----
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_awniang_game_save</Name>
+			<Path>.</Path>
+			<FullName>./test_awniang_game_save</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.25.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_save"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.340006</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.25.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_save"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_default</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_default</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.26.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_default"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.305469</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.26.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_default"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Checking Position (0, 0):
+Expected shape: 3, Actual shape: 3
+Expected orientation: 3, Actual orientation: 3
+Checking Position (0, 1):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 0, Actual orientation: 0
+Checking Position (0, 2):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 3, Actual orientation: 3
+Checking Position (0, 3):
+Expected shape: 3, Actual shape: 3
+Expected orientation: 0, Actual orientation: 0
+Checking Position (0, 4):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 2, Actual orientation: 2
+Checking Position (1, 0):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 2, Actual orientation: 2
+Checking Position (1, 1):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 3, Actual orientation: 3
+Checking Position (1, 2):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 0, Actual orientation: 0
+Checking Position (1, 3):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 1, Actual orientation: 1
+Checking Position (1, 4):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 1, Actual orientation: 1
+Checking Position (2, 0):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 1, Actual orientation: 1
+Checking Position (2, 1):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 0, Actual orientation: 0
+Checking Position (2, 2):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 3, Actual orientation: 3
+Checking Position (2, 3):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 3, Actual orientation: 3
+Checking Position (2, 4):
+Expected shape: 2, Actual shape: 2
+Expected orientation: 1, Actual orientation: 1
+Checking Position (3, 0):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 2, Actual orientation: 2
+Checking Position (3, 1):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 2, Actual orientation: 2
+Checking Position (3, 2):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 0, Actual orientation: 0
+Checking Position (3, 3):
+Expected shape: 3, Actual shape: 3
+Expected orientation: 3, Actual orientation: 3
+Checking Position (3, 4):
+Expected shape: 2, Actual shape: 2
+Expected orientation: 0, Actual orientation: 0
+Checking Position (4, 0):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 1, Actual orientation: 1
+Checking Position (4, 1):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 3, Actual orientation: 3
+Checking Position (4, 2):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 2, Actual orientation: 2
+Checking Position (4, 3):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 1, Actual orientation: 1
+Checking Position (4, 4):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 2, Actual orientation: 2
+test_game_default passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_default_solution</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_default_solution</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.27.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_default_solution"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.310095</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.27.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_default_solution"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_default_solution passed.
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_get_ajacent_square</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_get_ajacent_square</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.28.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_get_ajacent_square"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.303216</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.28.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_get_ajacent_square"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_get_ajacent_square passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_get_ajacent_square_ext</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_get_ajacent_square_ext</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.29.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_get_ajacent_square_ext"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.302743</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.29.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_get_ajacent_square_ext"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_get_ajacent_square_ext passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_has_half_edge</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_has_half_edge</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.30.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_has_half_edge"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.313223</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.30.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_has_half_edge"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>game_default : 
+     0 1 2 3 4 
+     ----------
+  0 |┘ ^ &lt; └ v |
+  1 |┬ ┤ ┴ ├ ├ |
+  2 |&gt; ^ ┤ &lt; - |
+  3 |v ┬ ┴ ┘ | |
+  4 |&gt; ┤ v &gt; v |
+     ----------
+Checking half edges for set pieces:
+Piece (0,0) North: 1 (expected: true)
+Piece (0,1) East: 1 (expected: true)
+Piece (1,0) South: 1 (expected: true)
+Piece (1,1) West: 1 (expected: true)
+Checking edges without half edges:
+Piece (0,0) East: 0 (expected: false)
+Piece (0,1) North: 0 (expected: false)
+Piece (1,0) East: 0 (expected: false)
+Piece (1,1) North: 1 (expected: true)
+test_game_has_half_edge passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_has_half_edge_ext</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_has_half_edge_ext</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.31.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_has_half_edge_ext"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.316784</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.31.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_has_half_edge_ext"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_has_half_edge_ext passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_check_edge</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_check_edge</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.32.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_check_edge"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.310321</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.32.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_check_edge"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_check_edge passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_check_edge_ext</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_check_edge_ext</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.33.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_check_edge_ext"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.310365</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.33.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_check_edge_ext"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>test_game_check_edge_ext passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_is_well_paired</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_is_well_paired</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.34.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_is_well_paired"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.327603</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.34.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_is_well_paired"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>     0 1 2 3 4 
+     ----------
+  0 |v         |
+  1 ||         |
+  2 ||         |
+  3 ||         |
+  4 |^         |
+     ----------
+g5 test passe
+     0 1 2 3 4 
+     ----------
+  0 |&gt; - - - &lt; |
+  1 |          |
+  2 |          |
+  3 |          |
+  4 |          |
+     ----------
+g6 test passe
+     0 1 2 3 4 
+     ----------
+  0 |┌ - ┐     |
+  1 ||   |     |
+  2 |└ - ┘     |
+  3 |          |
+  4 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |┌ - ┐     |
+  1 || | |     |
+  2 |└ - ┘     |
+  3 |          |
+  4 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |┌ - ┐     |
+  1 ||   |     |
+  2 |└ - ┘     |
+  3 |    ┌ ┐   |
+  4 |    └ ┘   |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |┬ - ┤     |
+  1 ||   |     |
+  2 |├ - ┴     |
+  3 |          |
+  4 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |&gt;   &lt;     |
+  1 |          |
+  2 |          |
+  3 |          |
+  4 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |┐       ┌ |
+  1 |┘       └ |
+  2 |          |
+  3 |          |
+  4 |          |
+     ----------
+All test cases for test_game_is_well_paired passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_is_well_paired_ext</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_is_well_paired_ext</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.35.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_is_well_paired_ext"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.349698</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.35.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_is_well_paired_ext"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>g1_ext pass
+g2_ext pass
+g3_ext pass
+g4_ext pass
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |v               |
+  1 ||               |
+  2 ||               |
+  3 ||               |
+  4 ||               |
+  5 ||               |
+  6 |^               |
+     ----------------
+g5_ext test passe
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |&gt; - - - - - - &lt; |
+  1 |                |
+  2 |                |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+g6_ext test passe
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |┌ - ┐           |
+  1 ||   |           |
+  2 |└ - ┘           |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |┌ - ┐           |
+  1 || | |           |
+  2 |└ - ┘           |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |┌ - ┐           |
+  1 ||   |           |
+  2 |└ - ┘           |
+  3 |    ┌ ┐         |
+  4 |    └ ┘         |
+  5 |                |
+  6 |                |
+     ----------------
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |┬ - ┤           |
+  1 ||   |           |
+  2 |├ - ┴           |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |&gt;   &lt;           |
+  1 |                |
+  2 |                |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |┐           ┌   |
+  1 |┘           └   |
+  2 |                |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+     0 1 2 3 4 
+     ----------
+  0 |┴ &lt; &gt; ┐ - |
+  1 |┤ &gt; ├ v ┐ |
+  2 |┬ ┴ ┘ - &gt; |
+  3 |┌ ┘ ^ - &lt; |
+     ----------
+g1_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |┬ &lt; v └ - |
+  1 |┤ &gt; ┤ v ┌ |
+  2 |├ ┬ ┘ | ^ |
+  3 |┘ └ &lt; | &gt; |
+     ----------
+g2_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |&gt; -       |
+  1 |          |
+  2 |          |
+  3 |          |
+     ----------
+g3_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |          |
+  1 |          |
+  2 |          |
+  3 |          |
+     ----------
+g4_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |v         |
+  1 ||         |
+  2 ||         |
+  3 |^         |
+     ----------
+g5_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |- - - - - |
+  1 |          |
+  2 |          |
+  3 |          |
+     ----------
+g6_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |┐     | ┌ |
+  1 |┘     | └ |
+  2 |          |
+  3 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |┐       ┌ |
+  1 |┘       └ |
+  2 |          |
+  3 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |┐ └ ┘   ┌ |
+  1 |┘       └ |
+  2 |          |
+  3 |  ┌ ┐     |
+     ----------
+g7_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |┤     ┬ - |
+  1 ||     |   |
+  2 |┴     ├ - |
+  3 |          |
+     ----------
+g8_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |&gt;   &lt;     |
+  1 |          |
+  2 |          |
+  3 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |&lt;     &gt;   |
+  1 |          |
+  2 |          |
+  3 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |&lt;       &gt; |
+  1 |          |
+  2 |          |
+  3 |          |
+     ----------
+g9_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |  ^       |
+  1 |          |
+  2 |          |
+  3 |  v       |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |          |
+  1 |  ^       |
+  2 |          |
+  3 |  v       |
+     ----------
+g10_ext_w test passe
+test_game_is_well_paired_ext passed!
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_print</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_print</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.36.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_print"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.322125</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.36.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_print"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>     0 1 2 3 4 
+     ----------
+  0 |          |
+  1 |          |
+  2 |          |
+  3 |          |
+  4 |          |
+     ----------
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |                |
+  1 |                |
+  2 |                |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+test_game_print passed
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_undo</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_undo</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.37.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_undo"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.325402</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.37.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_undo"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>No more move to undo
+No more move to undo
+test game_undo passed
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_qxie_game_redo</Name>
+			<Path>.</Path>
+			<FullName>./test_qxie_game_redo</FullName>
+			<FullCommandLine>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.38.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_redo"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.307421</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/valgrind "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.38.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_redo"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>No more move to redo
+No more move to redo
+test game_redo passed
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Feb 04 16:58 CET</EndDateTime>
+		<EndTestTime>1738684682</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

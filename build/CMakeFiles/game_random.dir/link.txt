@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -g -Wall -g -rdynamic CMakeFiles/game_random.dir/game_random.c.o -o game_random  libgame.a

@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -g -Wall -g -rdynamic CMakeFiles/game_test_awniang.dir/game_test_awniang.c.o -o game_test_awniang  libgame.a

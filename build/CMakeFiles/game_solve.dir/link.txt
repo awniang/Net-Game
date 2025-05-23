@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -g -Wall -g -rdynamic CMakeFiles/game_solve.dir/game_solve.c.o -o game_solve  libgame.a

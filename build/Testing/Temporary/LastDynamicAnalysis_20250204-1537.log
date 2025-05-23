@@ -1,0 +1,998 @@
+Start testing: Feb 04 16:57 CET
+----------------------------------------------------------
+1/38 Testing: test_qxie_dummy
+1/38 Test: test_qxie_dummy
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.1.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "dummy"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_dummy" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_dummy" end time: Feb 04 16:57 CET
+"test_qxie_dummy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/38 Testing: test_awniang_dummy
+2/38 Test: test_awniang_dummy
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.2.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "dummy"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_awniang_dummy" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_awniang_dummy" end time: Feb 04 16:57 CET
+"test_awniang_dummy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/38 Testing: test_famseye_dummy
+3/38 Test: test_famseye_dummy
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.3.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "dummy"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_famseye_dummy" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_famseye_dummy" end time: Feb 04 16:57 CET
+"test_famseye_dummy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/38 Testing: test_famseye_play_move
+4/38 Test: test_famseye_play_move
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.4.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_play_move"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_famseye_play_move" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+Test "game_play_move" finished: SUCCESS
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_famseye_play_move" end time: Feb 04 16:57 CET
+"test_famseye_play_move" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/38 Testing: test_famseye_get_piece_orientation
+5/38 Test: test_famseye_get_piece_orientation
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.5.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "get_piece_orientation"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_famseye_get_piece_orientation" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+Test "get_piece_orientation" finished: SUCCESS
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_famseye_get_piece_orientation" end time: Feb 04 16:57 CET
+"test_famseye_get_piece_orientation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/38 Testing: test_famseye_get_piece_shape
+6/38 Test: test_famseye_get_piece_shape
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.6.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "get_piece_shape"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_famseye_get_piece_shape" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+Test "get_piece_shape" finished: SUCCESS
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_famseye_get_piece_shape" end time: Feb 04 16:57 CET
+"test_famseye_get_piece_shape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/38 Testing: test_famseye_game_reset_orientation
+7/38 Test: test_famseye_game_reset_orientation
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.7.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "reset_orientation"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_famseye_game_reset_orientation" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+Test "reset_orientation" finished: SUCCESS
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_famseye_game_reset_orientation" end time: Feb 04 16:57 CET
+"test_famseye_game_reset_orientation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/38 Testing: test_famseye_game_shuffle_orientation
+8/38 Test: test_famseye_game_shuffle_orientation
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.8.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "shuffle_orientation"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_famseye_game_shuffle_orientation" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+Test "shuffle_orientation" finished: SUCCESS
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_famseye_game_shuffle_orientation" end time: Feb 04 16:57 CET
+"test_famseye_game_shuffle_orientation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/38 Testing: test_famseye_game_won
+9/38 Test: test_famseye_game_won
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.9.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_won"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_famseye_game_won" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+Test "game_won" finished: SUCCESS
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_famseye_game_won" end time: Feb 04 16:57 CET
+"test_famseye_game_won" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/38 Testing: test_famseye_game_is_connected
+10/38 Test: test_famseye_game_is_connected
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.10.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_is_connected"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_famseye_game_is_connected" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+Test "game_is_connected" finished: SUCCESS
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_famseye_game_is_connected" end time: Feb 04 16:57 CET
+"test_famseye_game_is_connected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/38 Testing: test_famseye_game_is_well_paired
+11/38 Test: test_famseye_game_is_well_paired
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.11.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_is_well_paired"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_famseye_game_is_well_paired" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_famseye_game_is_well_paired" end time: Feb 04 16:57 CET
+"test_famseye_game_is_well_paired" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/38 Testing: test_game_nb_rows
+12/38 Test: test_game_nb_rows
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.12.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_nb_rows"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_game_nb_rows" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+Test "game_nb_rows" finished: SUCCESS
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_game_nb_rows" end time: Feb 04 16:57 CET
+"test_game_nb_rows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/38 Testing: test_game_new_empty_ext
+13/38 Test: test_game_new_empty_ext
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.13.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_new_empty_ext"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_game_new_empty_ext" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+Test "game_new_empty_ext" finished: SUCCESS
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_game_new_empty_ext" end time: Feb 04 16:57 CET
+"test_game_new_empty_ext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/38 Testing: test_game_new_ext
+14/38 Test: test_game_new_ext
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.14.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_famseye" "game_new_ext"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_game_new_ext" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+Test "game_new_ext" finished: SUCCESS
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_game_new_ext" end time: Feb 04 16:57 CET
+"test_game_new_ext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/38 Testing: test_awniang_game_new_empty
+15/38 Test: test_awniang_game_new_empty
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.15.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_new_empty"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_awniang_game_new_empty" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_empty passed!
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_awniang_game_new_empty" end time: Feb 04 16:57 CET
+"test_awniang_game_new_empty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/38 Testing: test_awniang_game_new
+16/38 Test: test_awniang_game_new
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.16.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_new"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_awniang_game_new" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_new passed!
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_awniang_game_new" end time: Feb 04 16:57 CET
+"test_awniang_game_new" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/38 Testing: test_awniang_game_equal
+17/38 Test: test_awniang_game_equal
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.17.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_equal"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_awniang_game_equal" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+Test_game_equal passed!
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"test_awniang_game_equal" end time: Feb 04 16:57 CET
+"test_awniang_game_equal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/38 Testing: test_awniang_game_delete
+18/38 Test: test_awniang_game_delete
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.18.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_delete"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_awniang_game_delete" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_delete passed!
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_awniang_game_delete" end time: Feb 04 16:57 CET
+"test_awniang_game_delete" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/38 Testing: test_awniang_game_set_piece_shape
+19/38 Test: test_awniang_game_set_piece_shape
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.19.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_set_piece_shape"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_awniang_game_set_piece_shape" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_set_piece_shape passed!
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_awniang_game_set_piece_shape" end time: Feb 04 16:57 CET
+"test_awniang_game_set_piece_shape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/38 Testing: test_awniang_game_set_piece_orientation
+20/38 Test: test_awniang_game_set_piece_orientation
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.20.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_set_piece_orientation"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_awniang_game_set_piece_orientation" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_set_piece_orientation passed!
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_awniang_game_set_piece_orientation" end time: Feb 04 16:57 CET
+"test_awniang_game_set_piece_orientation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/38 Testing: test_awniang_game_copy
+21/38 Test: test_awniang_game_copy
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.21.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_copy"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_awniang_game_copy" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_copy passed!
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_awniang_game_copy" end time: Feb 04 16:57 CET
+"test_awniang_game_copy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/38 Testing: test_awniang_game_nb_cols
+22/38 Test: test_awniang_game_nb_cols
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.22.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_nb_cols"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_awniang_game_nb_cols" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_nb_cols passed!
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_awniang_game_nb_cols" end time: Feb 04 16:57 CET
+"test_awniang_game_nb_cols" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/38 Testing: test_awniang_game_is_wrapping
+23/38 Test: test_awniang_game_is_wrapping
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.23.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_is_wrapping"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_awniang_game_is_wrapping" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_is_wrapping passed!
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_awniang_game_is_wrapping" end time: Feb 04 16:57 CET
+"test_awniang_game_is_wrapping" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/38 Testing: test_awniang_game_load
+24/38 Test: test_awniang_game_load
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.24.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_load"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_awniang_game_load" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+     0 1 
+     ----
+  0 |└ ^ |
+  1 |┬ ┤ |
+     ----
+     0 1 
+     ----
+  0 |└ ^ |
+  1 |┬ ┤ |
+     ----
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"test_awniang_game_load" end time: Feb 04 16:57 CET
+"test_awniang_game_load" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/38 Testing: test_awniang_game_save
+25/38 Test: test_awniang_game_save
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.25.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_awniang" "game_save"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_awniang_game_save" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"test_awniang_game_save" end time: Feb 04 16:57 CET
+"test_awniang_game_save" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/38 Testing: test_qxie_game_default
+26/38 Test: test_qxie_game_default
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.26.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_default"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_default" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+Checking Position (0, 0):
+Expected shape: 3, Actual shape: 3
+Expected orientation: 3, Actual orientation: 3
+Checking Position (0, 1):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 0, Actual orientation: 0
+Checking Position (0, 2):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 3, Actual orientation: 3
+Checking Position (0, 3):
+Expected shape: 3, Actual shape: 3
+Expected orientation: 0, Actual orientation: 0
+Checking Position (0, 4):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 2, Actual orientation: 2
+Checking Position (1, 0):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 2, Actual orientation: 2
+Checking Position (1, 1):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 3, Actual orientation: 3
+Checking Position (1, 2):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 0, Actual orientation: 0
+Checking Position (1, 3):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 1, Actual orientation: 1
+Checking Position (1, 4):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 1, Actual orientation: 1
+Checking Position (2, 0):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 1, Actual orientation: 1
+Checking Position (2, 1):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 0, Actual orientation: 0
+Checking Position (2, 2):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 3, Actual orientation: 3
+Checking Position (2, 3):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 3, Actual orientation: 3
+Checking Position (2, 4):
+Expected shape: 2, Actual shape: 2
+Expected orientation: 1, Actual orientation: 1
+Checking Position (3, 0):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 2, Actual orientation: 2
+Checking Position (3, 1):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 2, Actual orientation: 2
+Checking Position (3, 2):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 0, Actual orientation: 0
+Checking Position (3, 3):
+Expected shape: 3, Actual shape: 3
+Expected orientation: 3, Actual orientation: 3
+Checking Position (3, 4):
+Expected shape: 2, Actual shape: 2
+Expected orientation: 0, Actual orientation: 0
+Checking Position (4, 0):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 1, Actual orientation: 1
+Checking Position (4, 1):
+Expected shape: 4, Actual shape: 4
+Expected orientation: 3, Actual orientation: 3
+Checking Position (4, 2):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 2, Actual orientation: 2
+Checking Position (4, 3):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 1, Actual orientation: 1
+Checking Position (4, 4):
+Expected shape: 1, Actual shape: 1
+Expected orientation: 2, Actual orientation: 2
+test_game_default passed!
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_default" end time: Feb 04 16:57 CET
+"test_qxie_game_default" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/38 Testing: test_qxie_game_default_solution
+27/38 Test: test_qxie_game_default_solution
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.27.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_default_solution"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_default_solution" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_default_solution passed.
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_default_solution" end time: Feb 04 16:57 CET
+"test_qxie_game_default_solution" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/38 Testing: test_qxie_game_get_ajacent_square
+28/38 Test: test_qxie_game_get_ajacent_square
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.28.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_get_ajacent_square"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_get_ajacent_square" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_get_ajacent_square passed!
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_get_ajacent_square" end time: Feb 04 16:57 CET
+"test_qxie_game_get_ajacent_square" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/38 Testing: test_qxie_game_get_ajacent_square_ext
+29/38 Test: test_qxie_game_get_ajacent_square_ext
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.29.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_get_ajacent_square_ext"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_get_ajacent_square_ext" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_get_ajacent_square_ext passed!
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_get_ajacent_square_ext" end time: Feb 04 16:57 CET
+"test_qxie_game_get_ajacent_square_ext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/38 Testing: test_qxie_game_has_half_edge
+30/38 Test: test_qxie_game_has_half_edge
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.30.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_has_half_edge"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_has_half_edge" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+game_default : 
+     0 1 2 3 4 
+     ----------
+  0 |┘ ^ < └ v |
+  1 |┬ ┤ ┴ ├ ├ |
+  2 |> ^ ┤ < - |
+  3 |v ┬ ┴ ┘ | |
+  4 |> ┤ v > v |
+     ----------
+Checking half edges for set pieces:
+Piece (0,0) North: 1 (expected: true)
+Piece (0,1) East: 1 (expected: true)
+Piece (1,0) South: 1 (expected: true)
+Piece (1,1) West: 1 (expected: true)
+Checking edges without half edges:
+Piece (0,0) East: 0 (expected: false)
+Piece (0,1) North: 0 (expected: false)
+Piece (1,0) East: 0 (expected: false)
+Piece (1,1) North: 1 (expected: true)
+test_game_has_half_edge passed!
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_has_half_edge" end time: Feb 04 16:57 CET
+"test_qxie_game_has_half_edge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/38 Testing: test_qxie_game_has_half_edge_ext
+31/38 Test: test_qxie_game_has_half_edge_ext
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.31.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_has_half_edge_ext"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_has_half_edge_ext" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_has_half_edge_ext passed!
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_has_half_edge_ext" end time: Feb 04 16:57 CET
+"test_qxie_game_has_half_edge_ext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/38 Testing: test_qxie_game_check_edge
+32/38 Test: test_qxie_game_check_edge
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.32.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_check_edge"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_check_edge" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_check_edge passed!
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_check_edge" end time: Feb 04 16:57 CET
+"test_qxie_game_check_edge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/38 Testing: test_qxie_game_check_edge_ext
+33/38 Test: test_qxie_game_check_edge_ext
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.33.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_check_edge_ext"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_check_edge_ext" start time: Feb 04 16:57 CET
+Output:
+----------------------------------------------------------
+test_game_check_edge_ext passed!
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_check_edge_ext" end time: Feb 04 16:58 CET
+"test_qxie_game_check_edge_ext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/38 Testing: test_qxie_game_is_well_paired
+34/38 Test: test_qxie_game_is_well_paired
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.34.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_is_well_paired"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_is_well_paired" start time: Feb 04 16:58 CET
+Output:
+----------------------------------------------------------
+     0 1 2 3 4 
+     ----------
+  0 |v         |
+  1 ||         |
+  2 ||         |
+  3 ||         |
+  4 |^         |
+     ----------
+g5 test passe
+     0 1 2 3 4 
+     ----------
+  0 |> - - - < |
+  1 |          |
+  2 |          |
+  3 |          |
+  4 |          |
+     ----------
+g6 test passe
+     0 1 2 3 4 
+     ----------
+  0 |┌ - ┐     |
+  1 ||   |     |
+  2 |└ - ┘     |
+  3 |          |
+  4 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |┌ - ┐     |
+  1 || | |     |
+  2 |└ - ┘     |
+  3 |          |
+  4 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |┌ - ┐     |
+  1 ||   |     |
+  2 |└ - ┘     |
+  3 |    ┌ ┐   |
+  4 |    └ ┘   |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |┬ - ┤     |
+  1 ||   |     |
+  2 |├ - ┴     |
+  3 |          |
+  4 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |>   <     |
+  1 |          |
+  2 |          |
+  3 |          |
+  4 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |┐       ┌ |
+  1 |┘       └ |
+  2 |          |
+  3 |          |
+  4 |          |
+     ----------
+All test cases for test_game_is_well_paired passed!
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_is_well_paired" end time: Feb 04 16:58 CET
+"test_qxie_game_is_well_paired" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/38 Testing: test_qxie_game_is_well_paired_ext
+35/38 Test: test_qxie_game_is_well_paired_ext
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.35.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_is_well_paired_ext"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_is_well_paired_ext" start time: Feb 04 16:58 CET
+Output:
+----------------------------------------------------------
+g1_ext pass
+g2_ext pass
+g3_ext pass
+g4_ext pass
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |v               |
+  1 ||               |
+  2 ||               |
+  3 ||               |
+  4 ||               |
+  5 ||               |
+  6 |^               |
+     ----------------
+g5_ext test passe
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |> - - - - - - < |
+  1 |                |
+  2 |                |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+g6_ext test passe
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |┌ - ┐           |
+  1 ||   |           |
+  2 |└ - ┘           |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |┌ - ┐           |
+  1 || | |           |
+  2 |└ - ┘           |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |┌ - ┐           |
+  1 ||   |           |
+  2 |└ - ┘           |
+  3 |    ┌ ┐         |
+  4 |    └ ┘         |
+  5 |                |
+  6 |                |
+     ----------------
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |┬ - ┤           |
+  1 ||   |           |
+  2 |├ - ┴           |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |>   <           |
+  1 |                |
+  2 |                |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |┐           ┌   |
+  1 |┘           └   |
+  2 |                |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+     0 1 2 3 4 
+     ----------
+  0 |┴ < > ┐ - |
+  1 |┤ > ├ v ┐ |
+  2 |┬ ┴ ┘ - > |
+  3 |┌ ┘ ^ - < |
+     ----------
+g1_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |┬ < v └ - |
+  1 |┤ > ┤ v ┌ |
+  2 |├ ┬ ┘ | ^ |
+  3 |┘ └ < | > |
+     ----------
+g2_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |> -       |
+  1 |          |
+  2 |          |
+  3 |          |
+     ----------
+g3_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |          |
+  1 |          |
+  2 |          |
+  3 |          |
+     ----------
+g4_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |v         |
+  1 ||         |
+  2 ||         |
+  3 |^         |
+     ----------
+g5_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |- - - - - |
+  1 |          |
+  2 |          |
+  3 |          |
+     ----------
+g6_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |┐     | ┌ |
+  1 |┘     | └ |
+  2 |          |
+  3 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |┐       ┌ |
+  1 |┘       └ |
+  2 |          |
+  3 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |┐ └ ┘   ┌ |
+  1 |┘       └ |
+  2 |          |
+  3 |  ┌ ┐     |
+     ----------
+g7_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |┤     ┬ - |
+  1 ||     |   |
+  2 |┴     ├ - |
+  3 |          |
+     ----------
+g8_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |>   <     |
+  1 |          |
+  2 |          |
+  3 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |<     >   |
+  1 |          |
+  2 |          |
+  3 |          |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |<       > |
+  1 |          |
+  2 |          |
+  3 |          |
+     ----------
+g9_ext_w test passe
+     0 1 2 3 4 
+     ----------
+  0 |  ^       |
+  1 |          |
+  2 |          |
+  3 |  v       |
+     ----------
+     0 1 2 3 4 
+     ----------
+  0 |          |
+  1 |  ^       |
+  2 |          |
+  3 |  v       |
+     ----------
+g10_ext_w test passe
+test_game_is_well_paired_ext passed!
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_is_well_paired_ext" end time: Feb 04 16:58 CET
+"test_qxie_game_is_well_paired_ext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/38 Testing: test_qxie_game_print
+36/38 Test: test_qxie_game_print
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.36.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_print"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_print" start time: Feb 04 16:58 CET
+Output:
+----------------------------------------------------------
+     0 1 2 3 4 
+     ----------
+  0 |          |
+  1 |          |
+  2 |          |
+  3 |          |
+  4 |          |
+     ----------
+     0 1 2 3 4 5 6 7 
+     ----------------
+  0 |                |
+  1 |                |
+  2 |                |
+  3 |                |
+  4 |                |
+  5 |                |
+  6 |                |
+     ----------------
+test_game_print passed
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_print" end time: Feb 04 16:58 CET
+"test_qxie_game_print" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/38 Testing: test_qxie_game_undo
+37/38 Test: test_qxie_game_undo
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.37.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_undo"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_undo" start time: Feb 04 16:58 CET
+Output:
+----------------------------------------------------------
+No more move to undo
+No more move to undo
+test game_undo passed
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_undo" end time: Feb 04 16:58 CET
+"test_qxie_game_undo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/38 Testing: test_qxie_game_redo
+38/38 Test: test_qxie_game_redo
+Command: "/usr/bin/valgrind" "--log-file=/autofs/unityaccount/cremi/awniang/net-b11/build/Testing/Temporary/MemoryChecker.38.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/autofs/unityaccount/cremi/awniang/net-b11/build/game_test_qxie" "game_redo"
+Directory: /autofs/unityaccount/cremi/awniang/net-b11/build
+"test_qxie_game_redo" start time: Feb 04 16:58 CET
+Output:
+----------------------------------------------------------
+No more move to redo
+No more move to redo
+test game_redo passed
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"test_qxie_game_redo" end time: Feb 04 16:58 CET
+"test_qxie_game_redo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 04 16:58 CET
